@@ -1,38 +1,30 @@
 # Brastlewark App finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has been created in order to help find the gnomes in your role-playing game Brastlewark
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+### `Gnoogle (Home)`
 
-### Packages
-- @material-ui/core
-- react-flex-box
-- serve
-- firebase global
+Type the name, age, hair color or professions to search your gnome.
 
-### `yarn start`
+### `Gnome list`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Check all list of gnomes you have available in the game.
 
-### `serve -s build`
+### `Gnome details`
 
-Run a min testing app like build.
+All information displayed to know more about the gnome you selected.
 
-## Github Repository
+## Installation
 
-You can check public demo [Github](https://github.com/Kappaequiscu/frontend-test.git)
- - git clone https://github.com/Kappaequiscu/frontend-test.git
+1. git clone https://github.com/Kappaequiscu/brastlewark-test.git
+
+2. Runs the app in the development mode.\ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+3. Use `serve - s build` to run a min testing app like build.
 
 ## Public deploy
 
-You can check public demo [Here](https://brastlewark-frontend-test.web.app/)
+You can check public demo [Here](https://nifty-haibt-c146f9.netlify.app/)
 
-## How this App works
-
- - Fetching json data from url.
- - Using useEffect to display data.
- - Using useState to filter displayed data.
- - Inputs can be all check to filter from any data.
